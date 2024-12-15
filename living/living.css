@@ -1,0 +1,233 @@
+nav{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 80px;
+    background: #000;
+    gap: 25px;
+}
+nav > a{
+    
+   margin-top: 30px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   white-space: nowrap;
+}
+nav > h1{
+    color: white;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+nav > img{
+    gap: 15px;
+}
+#logopng{
+    margin-left: 190px;
+}
+.icons1footer{
+    display: flex;
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    margin-left: 350px;
+    margin-right: 20px;
+
+}
+
+.icons,.icons1{
+    margin-left:5px;
+   margin-top: 20px;
+    width: 35px;
+    height: 35px;
+margin-right: 20px;
+}
+.icons1{
+    margin-left: 300px;
+}
+
+/*livving room*/
+.imgliving{
+    display:flex;
+ 
+    justify-content: center;
+}
+
+.cards{
+    width: 35px ;
+    height: 35px ;
+    }
+.containner-cards{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.cardimg{
+    transition: 0.5s;
+   /* margin-left: 200px;*/
+    margin-bottom: 30px;
+    filter: blur(1px);
+    margin-right: 150px;
+
+}
+
+.cardimg:hover{
+    transform: scale(1.2);
+    filter: grayscale(100%);
+    filter: blur(0px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+text-decoration: none;
+}
+.inq{
+    margin-left: 50px;
+}
+.sofas-text{
+    display: flex;
+    background: #be78c7;
+    color: white;
+    height: 50px;
+   opacity: 0.9;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 45px;
+}
+#livingtext{
+  margin-top:70px;
+  margin-bottom: 70px;
+}
+.livingroom-ideas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.livingroom-ideas > img{
+    width: 550px;
+    height: 300px;
+}
+.ideaspart2{
+    margin-left: 150px;
+
+    font-size: 14px;
+}
+
+.lists{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.lists ul li{
+    margin-bottom: 25px;
+}
+.shopingnow{
+    width: 150px;
+    height: 40px;
+    background: #842C68;
+    
+}
+.popimg{
+    width: 250px;
+    height: 320px;
+}
+.popimg1{
+    width: 250px;
+    height: 370px;
+}
+.mostpopular{
+    display:flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 410px;
+    background: #000;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.privace{
+    text-align: center;
+    color: white;
+}
+.ForSale{
+    display: flex;
+}
+.listicon > img{
+background: white;
+}
+.secret{
+    display:flex;
+    background: rgb(219, 215, 215);
+    width: 219px;
+    height: 270px;
+    justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 14px;
+  
+}
+.secret img{
+    margin-top: 20px;
+    margin-right: 45px;
+    width: 119px;
+    height: 150px;
+
+}
+.midcent{
+    display:flex;
+    background: rgb(219, 215, 215);
+    width: 250px;
+    height: 310px;
+    justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 14px;
+}
+.secall{
+    display: flex;
+    gap: 50px;
+}
+.midcent img{
+    margin-top: 20px;
+    margin-right: 55px;
+    width: 150px;
+    height: 250px;
+}
+.secall{
+    display: flex;
+    justify-content: center;
+}
+.navtext{
+    transition: 0.5s;
+}
+ nav a:hover{
+    border-bottom: white solid;
+    margin-bottom: 25px;
+}
+.links{
+    margin-top: 100px;
+}
+.links a , img {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}

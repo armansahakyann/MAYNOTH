@@ -1,0 +1,167 @@
+nav{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 80px;
+    background: #000;
+    gap: 25px;
+}
+nav > a{
+    
+   margin-top: 30px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   white-space: nowrap;
+}
+nav > h1{
+    color: white;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+nav > img{
+    gap: 15px;
+}
+nav a {
+    transition: 0.5s;
+
+}
+nav a:hover{
+    border-bottom: white solid;
+   
+ 
+    margin-bottom: 25px;
+}
+
+.icons,.icons1{
+    margin-left:5px;
+   margin-top: 20px;
+    width: 35px;
+    height: 35px;
+margin-right: 20px;
+}
+.icons1{
+    margin-left: 300px;
+}
+#logopng{
+    margin-left: 190px;
+}
+
+    
+   
+.selimg{
+    width: 150px;
+    height: 150px;
+
+}
+.miniborder{
+    display: flex;
+    margin-left: 210px;
+    
+}
+.miniborder img{
+    width: 150px;
+    height: 150px; 
+    margin-left: 55px;
+    margin-top: 50px;
+}
+#imgsty{
+     display: flex;
+    margin-left: 250px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    height: 300px;
+}
+#jesht{
+    margin-left: 130px;
+    width: 55px;
+    height: 15px;
+    
+}
+.bordbottom{
+   margin-left: 125px;
+    border-bottom: 1px solid black;
+    width: 450px;
+    height: 10px;
+}
+#addbag{
+    background: #842C68;
+    margin-right: 130px;
+    margin-bottom: 59px;
+}
+.nitt{
+    margin-left: 120px;
+
+}
+.nitt button{
+    width:120px ; 
+    height: 50px;
+}
+#desk{
+    width:120px ; 
+    height: 50px;
+   margin-top: 2500px;
+margin-left: 25px;
+}
+.mini2{
+    margin-left: 120px;
+}
+.moneytext{
+    color: #842C68;
+    font-weight: bold;
+}
+.bordbottom1{
+    margin-left: 125px;
+    border-bottom: 1px solid black;
+    width: 600px;
+    height: 10px;
+}
+.parentu {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 1.5fr) 1fr;
+    grid-template-rows: 1fr (4, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 25px;
+
+    }
+    
+    .div1y { grid-area: 1 / 2 / 2 / 3; }
+    .div2y { grid-area: 1 / 3 / 2 / 4; }
+    .div3y { grid-area: 1 / 4 / 2 / 5; }
+.parentu img{
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 410px;
+    background: #000;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    margin-top: 100px;
+}
+.links > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.links img{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.icons1footer{
+    display: flex;
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    margin-left: 350px;
+    margin-right: 20px;
+
+}
